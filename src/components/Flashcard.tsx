@@ -58,10 +58,10 @@ const Flashcard: React.FC<FlashcardProps> = ({ card }) => {
   return (
     <div style={cardStyle} onClick={() => setFlipped(f => !f)}>
       <div style={innerStyle(flipped)}>
-        <div style={frontStyle}>
+        <div style={frontStyle} data-testid="card-front">
           {card.term}
         </div>
-        <div style={backStyle}>
+        <div style={backStyle} data-testid="card-back">
           <div style={{ fontWeight: 700, fontSize: '1.3rem', marginBottom: 8 }}>{card.translation}</div>
           <div style={{ marginBottom: 6 }}><b>EN:</b> {card.exampleEn}</div>
           <div><b>VI:</b> {card.exampleVi}</div>

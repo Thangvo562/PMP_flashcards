@@ -10,7 +10,7 @@ Each card should be in English, and I need to know the word in Vietnamese with a
 It should have the ability to flip cards revealing the word in Vietnamese
 After flipping, below each card I should have two buttons, ask if I got it wrong or right
 Remember which cards I got wrong
-Feature: to redo only cards I don’t know.
+Feature: to redo only cards I don't know.
 Quiz/Test Mode: Multiple choice or fill-in-the-blank options.
 Statistics page: Track how many cards you've studied, correct vs. incorrect answers
 
@@ -43,6 +43,16 @@ Mark items as done in the TODO list only after verifying that the acceptance cri
 ----------------------------
 Add Git to this project
 
-VI. Add new feature (phase 2 - only 2 first features to test)
+# VI. Add new feature (phase 2 - only 2 first features to test)
 ----------------------------
 Use the software requirements and the TODO list to work on Phase 2 of the project. Build the first 2 features listed there. Mark in the TODO list the items that are done.
+
+# VII. Adding Automated test
+----------------------------
+## Ask kind of testing 
+What kind of test does it make sense to write for this app?
+
+-> Result: (Unit test/ Component test/ Integration test/ E2E test)
+
+## Write E2R test 
+For the functionality implemented so far, write E2E tests using Playwright
