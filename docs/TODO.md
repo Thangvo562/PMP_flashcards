@@ -28,10 +28,10 @@
 
 ## 🟢 Phase 2: Flashcard Study Mode (Basic)
 
-* [ ] Create `Flashcard` component with flip interaction
+* [x] Create `Flashcard` component with flip interaction
   ✅ *Acceptance Criteria:* Front displays English term; back reveals Vietnamese translation and both examples.
 
-* [ ] Implement flip animation on click
+* [x] Implement flip animation on click
   ✅ *Acceptance Criteria:* Clicking the card triggers a flip to show the back side with content.
 
 * [ ] Show "✅ Right" and "❌ Wrong" buttons after flipping

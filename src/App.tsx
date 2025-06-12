@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
+import Study from './pages/Study';
 
-const Study = () => <div style={{textAlign: 'center', marginTop: '4rem'}}><h2>Study Flashcards Page (Coming Soon)</h2></div>;
 const Quiz = () => <div style={{textAlign: 'center', marginTop: '4rem'}}><h2>Quiz Mode Page (Coming Soon)</h2></div>;
 const Stats = () => <div style={{textAlign: 'center', marginTop: '4rem'}}><h2>Statistics Page (Coming Soon)</h2></div>;
 

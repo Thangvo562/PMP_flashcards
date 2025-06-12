@@ -1,4 +1,4 @@
-I. Create App specification
+# I. Create App specification
 ----------------------------
 I need to write a software specification, and I need your help with writing it.
 
@@ -19,7 +19,7 @@ The output should be formatted as Markdown.
 Ask follow-up questions if something is unclear BEFORE you start generating.
 
 
-II. Reply for the  response before generating .md file
+# II. Reply for the  response before generating .md file
 ----------------------------
 1. For the PMP terms, you can input any common word on PMM, it can be one word or pharse/terms. And example on both langugaues 
 2. Yes, auto revealing card after flipping, and add shortcuts
@@ -29,12 +29,20 @@ II. Reply for the  response before generating .md file
 6. single user
 7. web only
 
-III. Create TODO list to implement one feature at a time
+# III. Create TODO list to implement one feature at a time
 ----------------------------
 create a TODO list to help implement one feature at a time. Order the features from easy to hard. The output should be in Markdown format. 
 For each item in  the list, also define acceptance criteria
 
-IV. Build the first feature
+# IV. Build the first feature
 ----------------------------
 Use the software requirements (pmp-flashcards-spec.md) and the TODO list (TODO.md) to complete Phase 1 of the project in the current directory. 
 Mark items as done in the TODO list only after verifying that the acceptance criteria have been met.
+
+# V. Add Git to the project
+----------------------------
+Add Git to this project
+
+VI. Add new feature (phase 2 - only 2 first features to test)
+----------------------------
+Use the software requirements and the TODO list to work on Phase 2 of the project. Build the first 2 features listed there. Mark in the TODO list the items that are done.
