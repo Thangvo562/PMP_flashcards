@@ -5,7 +5,7 @@ test.describe('PMP Flashcards App E2E', () => {
     await page.goto('/');
     await expect(page.getByRole('heading', { name: /PMP Flashcards App/i })).toBeVisible();
     await expect(page.getByRole('button', { name: /Study Flashcards/i })).toBeVisible();
-    await expect(page.getByRole('button', { name: /Quiz Mode/i })).toBeVisible();
+    await expect(page.getByRole('button', { name: /Quiz/i })).toBeVisible();
     await expect(page.getByRole('button', { name: /Statistics Page/i })).toBeVisible();
   });
 

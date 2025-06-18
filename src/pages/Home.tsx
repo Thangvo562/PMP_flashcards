@@ -40,10 +40,20 @@ const Home: React.FC = () => {
           Study Flashcards
         </button>
         <button
-          style={{ ...buttonStyle, background: '#22c55e' }}
-          onMouseOver={e => (e.currentTarget.style.background = '#16a34a')}
-          onMouseOut={e => (e.currentTarget.style.background = '#22c55e')}
           onClick={() => navigate('/quiz')}
+          style={{
+            padding: '1rem 2rem',
+            fontSize: '1.2rem',
+            backgroundColor: '#2196F3',
+            color: 'white',
+            border: 'none',
+            borderRadius: '8px',
+            cursor: 'pointer',
+            marginBottom: '1rem',
+            width: '100%',
+            maxWidth: '300px',
+            transition: 'transform 0.2s, background-color 0.2s'
+          }}
         >
           Quiz Mode
         </button>
