@@ -56,3 +56,6 @@ What kind of test does it make sense to write for this app?
 
 ## Write E2R test 
 For the functionality implemented so far, write E2E tests using Playwright
+
+# VIII. Adding rules and ask AI to clean code (refactor)
+Analyze the codebase, identify the issues, and refactor it while preserving its behavior. Follow clean code principles and best practices. Refer to the rules given.

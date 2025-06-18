@@ -1,16 +1,17 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import AppButton from '../components/AppButton';
 
-const buttonStyle = {
-  padding: '1rem 2rem',
-  fontSize: '1.2rem',
-  color: 'white',
-  border: 'none',
-  borderRadius: '8px',
-  cursor: 'pointer',
-  margin: '0.5rem 0',
-  width: '220px',
-  transition: 'background 0.2s',
+const ROUTES = {
+  STUDY: '/study',
+  QUIZ: '/quiz',
+  STATS: '/stats',
+};
+
+const LABELS = {
+  STUDY: 'Study Flashcards',
+  QUIZ: 'Quiz Mode',
+  STATS: 'Statistics Page',
 };
 
 const Home: React.FC = () => {
@@ -30,41 +31,26 @@ const Home: React.FC = () => {
         alignItems: 'center',
         textAlign: 'center',
       }}>
-        <h1 style={{ marginBottom: '2rem', fontSize: '2.5rem', color: '#222' }}>PMP Flashcards App</h1>
-        <button
-          style={{ ...buttonStyle, background: '#2563eb' }}
-          onMouseOver={e => (e.currentTarget.style.background = '#1d4ed8')}
-          onMouseOut={e => (e.currentTarget.style.background = '#2563eb')}
-          onClick={() => navigate('/study')}
-        >
-          Study Flashcards
-        </button>
-        <button
-          onClick={() => navigate('/quiz')}
-          style={{
-            padding: '1rem 2rem',
-            fontSize: '1.2rem',
-            backgroundColor: '#2196F3',
-            color: 'white',
-            border: 'none',
-            borderRadius: '8px',
-            cursor: 'pointer',
-            marginBottom: '1rem',
-            width: '100%',
-            maxWidth: '300px',
-            transition: 'transform 0.2s, background-color 0.2s'
-          }}
-        >
-          Quiz Mode
-        </button>
-        <button
-          style={{ ...buttonStyle, background: '#a21caf' }}
-          onMouseOver={e => (e.currentTarget.style.background = '#701a75')}
-          onMouseOut={e => (e.currentTarget.style.background = '#a21caf')}
-          onClick={() => navigate('/stats')}
-        >
-          Statistics Page
-        </button>
+        <h1 style={{ marginBottom: '2rem', fontSize: '2.5rem', color: '#222' }}>PMP Flashcards</h1>
+        <p style={{ marginBottom: '2rem', fontSize: '1.2rem', color: '#555' }}>Welcome, choose an activity to start</p>
+        <AppButton
+          label={LABELS.STUDY}
+          color="primary"
+          onClick={() => navigate(ROUTES.STUDY)}
+          ariaLabel="Start studying flashcards"
+        />
+        <AppButton
+          label={LABELS.QUIZ}
+          color="success"
+          onClick={() => navigate(ROUTES.QUIZ)}
+          ariaLabel="Start quiz mode"
+        />
+        <AppButton
+          label={LABELS.STATS}
+          color="secondary"
+          onClick={() => navigate(ROUTES.STATS)}
+          ariaLabel="View statistics page"
+        />
       </div>
     </div>
   );
