@@ -34,18 +34,18 @@
 * [x] Implement flip animation on click
   ✅ *Acceptance Criteria:* Clicking the card triggers a flip to show the back side with content.
 
-* [ ] Show "✅ Right" and "❌ Wrong" buttons after flipping
+* [x] Show "✅ Right" and "❌ Wrong" buttons after flipping
   ✅ *Acceptance Criteria:* Buttons appear only after flip and let users record their answer.
 
-* [ ] Add keyboard shortcuts:
+* [x] Add keyboard shortcuts:
 
-  * [ ] `←` for "Wrong", `→` for "Right"
+  * [x] `←` for "Wrong", `→` for "Right"
     ✅ *Acceptance Criteria:* Shortcuts work after card is flipped and mark answer accordingly.
 
-* [ ] Track "wrong" cards in app state
+* [x] Track "wrong" cards in app state
   ✅ *Acceptance Criteria:* Cards marked as "Wrong" are stored for use in redo or stats view.
 
-* [ ] Persist progress using `localStorage`
+* [x] Persist progress using `localStorage`
   ✅ *Acceptance Criteria:* Study results are saved and restored on page refresh.
 
 ---
