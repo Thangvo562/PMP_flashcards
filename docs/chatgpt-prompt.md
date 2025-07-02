@@ -34,7 +34,6 @@ The output should be formatted as Markdown.
 # III. Create TODO List to Implement One Feature at a Time
 
 Create a TODO list to help implement one feature at a time. Order the features from easy to hard. The output should be in Markdown format.
-
 For each item in the list, also define acceptance criteria.
 
 ---
@@ -42,7 +41,6 @@ For each item in the list, also define acceptance criteria.
 # IV. Build the First Feature
 
 Use the software requirements (`pmp-flashcards-spec.md`) and the TODO list (`TODO.md`) to complete Phase 1 of the project in the current directory.
-
 Mark items as done in the TODO list only after verifying that the acceptance criteria have been met.
 
 ---
