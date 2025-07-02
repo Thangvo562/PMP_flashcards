@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { flashcards, Flashcard as FlashcardType } from '../data/flashcards';
+import { flashcards } from '../data/flashcards';
 import Flashcard from '../components/Flashcard';
 import { useNavigate } from 'react-router-dom';
 
